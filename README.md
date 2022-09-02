@@ -4,4 +4,6 @@ this is a dapp that lets users to get feedback from other users about their idea
 
 # Demo link
 
+https://sprightly-capybara-c7ca60.netlify.app
+
 
