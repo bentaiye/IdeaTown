@@ -42,10 +42,10 @@ return (
      {props.walletAddress !== idea.owner &&(
        <Form>
        <Form.Group className="mb-3" >
-         <Form.Control type="number" placeholder="Enter Ammount" onChange={(e) => setAmmount(e.target.value)} />
+         <Form.Control type="number" placeholder="Enter Amount" onChange={(e) => setAmmount(e.target.value)} />
        </Form.Group>
        <Button variant="primary"  onClick={()=> props.supportIdea(idea.index, ammount)}>
-         Suppot Idea
+         Support Idea
        </Button>
      </Form>
       )}
